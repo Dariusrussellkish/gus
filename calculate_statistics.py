@@ -9,4 +9,4 @@ with open(sys.argv[1], 'r') as f:
     times = [int(time) for time in content]
     requests = len(times)
     average = sum(times) / requests
-    print('average time in nanoseconds for {} requests: {}'.format(requests, average))
+    print('average time in microseconds for {} requests: {}'.format(requests, average))
